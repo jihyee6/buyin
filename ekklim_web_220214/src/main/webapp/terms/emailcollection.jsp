@@ -1,0 +1,118 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style>
+
+.t_text{
+width: 1200px;
+margin-left: 365px;
+}
+
+hr{
+border: 1px solid #707070;
+margin: 20px auto;
+}
+
+.t_text h4{
+font-size: 32px;
+font-weight: bold;
+font-family: NanumSquare_ac;
+color: #242424;
+}
+
+.t_button{
+margin: 10px auto;
+}
+
+.t_button button{
+width: 170px;
+height: 50px;
+border: 1px solid #707070;
+font-size: 18px;
+font-family: NanumSquare;
+background: white;
+color: #242424;
+margin-right: 10px;
+cursor: pointer;
+}
+
+.language{
+margin-top: 30px;
+display: flex;
+}
+
+.language div{
+border: 1px solid #C2C2C2;
+width: 600px;
+height: 65px;
+font-size: 22px;
+font-family: NanumSquare_ac;
+color: #D2D2D2;
+text-align: center;
+cursor: pointer;
+}
+
+.terms_text{
+font-family: NanumSquare_ac;
+font-color: #242424;
+font-size: 16px;
+width: 1200px;
+}
+
+.terms_text h3{
+font-size: 32px;
+font-weight: bold;
+}
+
+.terms_text p{
+line-height: 25px;
+}
+
+
+</style>
+
+</head>
+<body>
+	<div class="t_text">
+		<h4>약관 및 정책</h4>
+		<hr>
+		<div class="t_button">
+			<button type="button" onclick="location.href='termsofuse'">이용약관</button>
+			<button type="button" onclick="location.href='privacy'" >개인정보처리방침</button>
+			<button type="button" onclick="location.href='emailcollection'" style="background: #707070; color: white; ">이메일무단수집거부</button>
+			<button type="button" onclick="location.href='marketing'">마케팅활용동의</button>
+		</div>
+		<div class="language">
+			<div class="korean" onclick="location.href='emailcollection'" style="border: 1px solid #707070; border-top: 3px solid #C3A58A; color: #242424; "><p>한글</p></div>
+			<div class="english" onclick="location.href='englishemail'"><p>영문</p></div>
+		</div>
+		<div class="terms_text">
+		<h3>이메일 무단수집거부</h3>
+		<p>
+
+<br>
+본 사이트에 게시된 이메일 주소가 전자우편 수집프로그램이나 그 밖의 기술적 장치를 이용하여 무단으로 수집되는 것을 거부하며,<br>
+이를 위반할 경우 정보통신망 법에 의해 형사 처벌됨을 유념하시기 바랍니다.<br>
+<br>
+<br>
+관련법규 - 정보통신망 이용촉진 및 정보보호 등에 관한 법률<br>
+<br>
+제50조의2 (전자우편주소의 무단 수집행위 등 금지)<br>
+① 누구든지 인터넷 홈페이지 운영자 또는 관리자의 사전 동의 없이 인터넷 홈페이지에서 자동으로 전자우편주소를 수집하는 프로그램이나 그 밖의 기술적 장치를 이용하여 전자우편주소를 수집하여서는 아니 된다.<br>
+② 누구든지 제1항을 위반하여 수집된 전자우편주소를 판매·유통하여서는 아니 된다.<br>
+③ 누구든지 제1항과 제2항에 따라 수집·판매 및 유통이 금지된 전자우편주소임을 알면서 이를 정보 전송에 이용하여서는 아니 된다.<br>
+<br>
+		</p>
+		
+		
+		
+		</div>
+
+	</div>
+</body>
+</html>
